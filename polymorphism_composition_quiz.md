@@ -54,4 +54,4 @@ as objects are composed from other objects we do not force behaviour like inheri
 but we can add functionality to more than 1 other objects and change behaviour at runtime.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
-They are still there to be reused for another object later/when needed.
+they are destroyed as well.(the reference to.)
